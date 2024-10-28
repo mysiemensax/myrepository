@@ -1,0 +1,15 @@
+name: "samplingWindowExample"
+jobType: finite
+signals:
+  - "cycleCount"
+  #- "address1"
+  #- address: "%I200.0"
+   # dataType: "BOOL"
+sampleCount: 15000
+frequency: 100
+checkPoint:
+  task: "MyConfiguration.Main"
+  position: "after"
+#saveTrigger:
+ # condition: b >= 100
+  #preSamples: 200

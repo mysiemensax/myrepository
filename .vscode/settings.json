@@ -1,0 +1,6 @@
+{
+    "tracing.pinnedPlcs": [
+        "plc1.yaml"
+    ],
+    "git.ignoreLimitWarning": true
+}
